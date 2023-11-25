@@ -1,8 +1,8 @@
 //your JS code here. If required.
 let para=document.getElementById("status");
-enterBtn.addEventListener("click",function(){
+document.getElementById("enterBtn").addEventListener("click",function(){
 	let heading=document.createElement("h1");
-	heading.innerText=para.innerText;
+	heading.innerText="Entered the Metaverse";
 	para.innerText="";
 	para.appendChild(heading);
 });
